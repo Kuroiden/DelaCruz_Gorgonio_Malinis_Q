@@ -19,6 +19,7 @@ public class Interact : MonoBehaviour
     public int cluesCleared = 0;
 
     public float dialogueTimer;
+
     void Update()
     {
         dialogueTimer -= Time.deltaTime;
@@ -37,7 +38,8 @@ public class Interact : MonoBehaviour
 
     void OnTriggerEnter()
     {
-        if (setObjID == 0 && !isChecked[0]) {
+        if (setObjID == 0 && !isChecked[0])
+        {
             dialogue.text = "No sign of struggle here. Did the victim know the killer?";
             dialogueTimer = 7.0f;
 
@@ -45,7 +47,9 @@ public class Interact : MonoBehaviour
             notes.text = "Door showed no signs of forced entry.";
             //gameManager.taskID++;
         }
-        else if (!isChecked[setObjID]) prompt.text = "[F] Inspect";
+        else if (!isChecked[setObjID]) {
+            prompt.text = "[F] Inspect"; 
+        }
     }
 
     void OnTriggerStay()
@@ -53,7 +57,8 @@ public class Interact : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             if (isChecked[setObjID]) dialogue.text = "I should check elsewhere...";
-            else {
+            else
+            {
                 isChecked[setObjID] = true;
 
                 switch (setObjID)
