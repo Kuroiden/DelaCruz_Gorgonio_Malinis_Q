@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
     [Header("Camera Position")]
     float camSensitivity = 2.0f;
     float camRotationX = 0.0f; // Up & Down angle
-    float camRotationY = 0.0f; // Left & Right angle
+    float camRotationY = 180.0f; // Left & Right angle
 
     float camxLimit = 60.0f;
 
@@ -32,6 +32,10 @@ public class Player : MonoBehaviour
     void Start()
     {
         PlayerController = GetComponent<CharacterController>();
+
+        // Set initial player rotation
+        //Quaternion intRotation = new Quaternion(0f, 0f, 0f, 180f);
+        //transform.rotation = Quaternion.Euler(0, 180, 0);
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
