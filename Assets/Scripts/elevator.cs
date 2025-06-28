@@ -28,26 +28,31 @@ public class elevator : MonoBehaviour
 
     public void OnTriggerStay(Collider other)
     {
+        this.GetComponent<Outline>().enabled = true;
+
         if (Input.GetKeyDown(KeyCode.F))
         {
+            this.GetComponent<Outline>().enabled = false;
+
             if (floor == 1)
             {
                 player.transform.position = floor2.transform.position;
-                player.transform.rotation = floor2.transform.rotation;
-                prompt.text = "[F] Go to the ground floor";
+                prompt.text = "";
+                player.transform.localRotation = Quaternion.Euler(0, -90, 0);
             }
 
             if (floor == 2)
             {
                 player.transform.position = GFloor.transform.position;
-                player.transform.rotation = GFloor.transform.rotation;
-                prompt.text = "[F] Go to 2F";
-            }
+                prompt.text = "";
+                player.transform.localRotation = Quaternion.Euler(0, -90, 0);
+            }            
         }
     }
 
     void OnTriggerExit(Collider other)
     {
+        this.GetComponent<Outline>().enabled = false;
         prompt.text = "";
     }
 }

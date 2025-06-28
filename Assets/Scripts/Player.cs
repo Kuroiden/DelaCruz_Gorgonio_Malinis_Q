@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     float walkSpd = 2.0f;
     float runSpd = 3.0f;
 
-    bool playerCanMove = true;
+    public bool playerCanMove = true;
 
     [Header("Camera Position")]
     float camSensitivity = 2.0f;
@@ -32,10 +32,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         PlayerController = GetComponent<CharacterController>();
-
-        // Set initial player rotation
-        //Quaternion intRotation = new Quaternion(0f, 0f, 0f, 180f);
-        //transform.rotation = Quaternion.Euler(0, 180, 0);
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
