@@ -13,9 +13,14 @@ public class OpenCloseDoor : MonoBehaviour
     public bool isDoorOpen = false;
     public bool isDoorLocked = false;
 
+    public float rotation;
+
     private void Update()
     {
-        
+        rotation = isDoorOpen ? 0 + (2 * Time.deltaTime) : 90 - (2 * Time.deltaTime);
+        if (isDoorOpen && rotation > 0 ) rotation = 90;
+        else if (!isDoorOpen && rotation > 0 ) rotation = 0;
+        door.transform.localRotation = Quaternion.Euler(0, rotation, 0);
     }
 
     void OnTriggerEnter(Collider other)
@@ -35,17 +40,15 @@ public class OpenCloseDoor : MonoBehaviour
             if (isDoorLocked) dialogue.text = "This doesn't seem be the right room...";
             else
             {
-                float rotation = isDoorOpen ? 0 + (2 * Time.deltaTime) : 90 - (2 * Time.deltaTime);
                 isDoorOpen = isDoorOpen ? false : true;
 
                 if (!isDoorOpen)
                 {
                     prompt.text = "[F] Open Door";
-                    door.transform.localRotation = Quaternion.Euler(0, rotation, 0);
+                    
                 }
                 else
                 {
-                    door.transform.localRotation = Quaternion.Euler(0, rotation, 0);
                     prompt.text = "[F] Close Door";
                 }
             }

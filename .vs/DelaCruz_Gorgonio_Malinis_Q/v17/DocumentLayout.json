@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|e:\\main storage\\school stuff\\leveldes\\delacruz_gorgonio_malinis_q\\assets\\scripts\\interact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\assets\\scripts\\openclosedoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|e:\\main storage\\school stuff\\leveldes\\delacruz_gorgonio_malinis_q\\assets\\scripts\\openclosedoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\openclosedoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\assets\\scripts\\elevator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\elevator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|e:\\main storage\\school stuff\\leveldes\\delacruz_gorgonio_malinis_q\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|e:\\main storage\\school stuff\\leveldes\\delacruz_gorgonio_malinis_q\\assets\\scripts\\interact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B6CB1C1-F14C-B9EC-567E-543FE859E8B6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,61 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "elevator.cs",
-              "DocumentMoniker": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\elevator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\elevator.cs",
-              "ToolTip": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\elevator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\elevator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T08:43:07.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "OpenCloseDoor.cs",
               "DocumentMoniker": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\OpenCloseDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OpenCloseDoor.cs",
               "ToolTip": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\OpenCloseDoor.cs",
               "RelativeToolTip": "Assets\\Scripts\\OpenCloseDoor.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwC8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T07:09:35.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Interact.cs",
-              "DocumentMoniker": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\Interact.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interact.cs",
-              "ToolTip": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\Interact.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interact.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T05:37:30.452Z",
+              "WhenOpened": "2025-06-28T17:03:03.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwDoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T02:29:49.138Z",
+              "WhenOpened": "2025-06-28T15:58:15.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interact.cs",
+              "DocumentMoniker": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\Interact.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Interact.cs",
+              "ToolTip": "E:\\Main Storage\\School Stuff\\LEVELDES\\DelaCruz_Gorgonio_Malinis_Q\\Assets\\Scripts\\Interact.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Interact.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAJYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T05:37:30.452Z",
               "EditorCaption": ""
             }
           ]
